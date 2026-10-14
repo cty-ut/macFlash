@@ -1,0 +1,9 @@
+.build/
+.DS_Store
+*.zip
+runtime/flash-source.plugin/
+Flash 游戏库.app/
+__pycache__/
+*.pyc
+产品需求.md
+开发总结.md

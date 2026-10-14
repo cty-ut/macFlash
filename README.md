@@ -10,6 +10,16 @@
 
 目前仅在 Apple Silicon、macOS 15.6.1 的本机环境验证过《保卫羊村》。应用采用本地签名，没有 Apple 公证；首次打开时，macOS 可能要求你在 Finder 中右键应用并选择“打开”。游戏本身仍需连接原网站，能否进入也取决于网站和账号状态。
 
+### 安装 Rosetta 2
+
+如果 Mac 尚未安装 Rosetta 2，请先联网，在“终端”运行：
+
+```sh
+softwareupdate --install-rosetta
+```
+
+按系统提示完成安装即可；如果 macOS 弹出 Rosetta 安装提示，也可以直接点击“安装”。Rosetta 由系统安装，通常只需安装一次。详见 [Apple 官方指引](https://support.apple.com/zh-cn/102527)。
+
 ## 功能
 
 - 添加、编辑、隐藏游戏；重新添加同一网址可恢复原有条目和数据。

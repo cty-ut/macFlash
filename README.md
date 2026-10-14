@@ -6,7 +6,9 @@
 
 ## 下载使用
 
-从 [Releases](https://github.com/cty-ut/macFlash/releases) 下载 `FlashGameLibrary-macOS-v0.9.0.zip`，解压后打开 `Flash 游戏库.app`。当前版本仅在 Apple Silicon、macOS 15.6.1 的本机环境验证。应用采用本地签名，没有 Apple 公证；首次打开时，macOS 可能要求你在 Finder 中右键应用并选择“打开”。
+从 [Releases](https://github.com/cty-ut/macFlash/releases) 下载 `FlashGameLibrary-macOS-v0.9.0.zip`，解压后打开 `Flash 游戏库.app`。当前应用主程序仅支持 Apple Silicon；内置 Chromium 和 Flash 为 Intel 版本，因此 Apple Silicon 电脑还需 Rosetta 2。Intel Mac 无法运行这一版应用。
+
+目前仅在 Apple Silicon、macOS 15.6.1 的本机环境验证过《保卫羊村》。应用采用本地签名，没有 Apple 公证；首次打开时，macOS 可能要求你在 Finder 中右键应用并选择“打开”。游戏本身仍需连接原网站，能否进入也取决于网站和账号状态。
 
 ## 功能
 
@@ -45,4 +47,4 @@ CHROMIUM_APP_SOURCE="/你的路径/Chromium.app" ./scripts/build-app.sh
 
 ## 使用范围
 
-应用内的 Chromium 和 Flash 均为旧版组件。请仅在自己信任的游戏网站上使用，不要把它当作日常浏览器。此项目没有内置游戏 SWF，也不保证其他网站可用；其他硬件和系统版本尚未验证。
+应用内的 Chromium 和 Flash 均为旧版组件。请仅在自己信任的游戏网站上使用，不要把它当作日常浏览器。此项目没有内置游戏 SWF，也不保证其他网站可用；其他 macOS 版本尚未验证。
